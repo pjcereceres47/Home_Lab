@@ -12,7 +12,7 @@ AutoIt is a legitimate scripting tool that attackers also use to run payloads an
 
 ## Lab environment
 
-The diagram below shoes the environment used for this attack.
+The diagram below shows the environment used for this attack.
 
 <p align="left">
   <img src="../screenshots/Architecture_v1.png" width="700">
@@ -92,7 +92,7 @@ The query is also saved in [`detection.spl`](detection.spl).
 
 ## Dashboard
 
-I built a dashboard showing recent triggered alerts so an analyst can see activity at a glance.
+Splunk dashboard showing recent AutoIt executions and detection timeline
 
 <p align="left">
   <img src="./screenshots/Dashboard.png" width="1000">
@@ -100,7 +100,7 @@ I built a dashboard showing recent triggered alerts so an analyst can see activi
 
 ## Validation
 
-I re-ran the test and confirmed the alert fired within one scheduled cycle.
+I re-ran the test and confirmed the search returned a new event, the scheduled alert triggered successfully, and the dashboard reflected the amount of alerts present.
 
 <p align="left">
   <img src="./screenshots/Dashboard2.png" width="1000">
