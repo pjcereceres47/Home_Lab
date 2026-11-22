@@ -17,7 +17,7 @@ A hands-on security lab where I practice detection engineering and purple teamin
 
 | ATT&CK ID | Technique | Tool | Result | Write-up |
 | --- | --- | --- | --- | --- |
-| T1059.010 | AutoIt Script Execution | Atomic Red Team | Detected in Splunk; scheduled alert and dashboard built | [View](purple_team/T1059_PowerShell_Execution) |
+| T1059.010 | AutoIt Script Execution | Atomic Red Team | Detected in Splunk; scheduled alert and dashboard built | [View](purple_team/T1059.010_AutoIt_Execution) |
 
 ## Roadmap
 
