@@ -56,8 +56,6 @@ Sysmon events weren't showing up in Splunk at first. The forwarder's service acc
 
 Searching for Sysmon Event ID 1 (process creation) around the time of the test revealed the AutoIt executable launching.
 
-[SCREENSHOT: Splunk event showing AutoIt3.exe process creation]
-
 **Key fields:**
 
 | Field | Value |
